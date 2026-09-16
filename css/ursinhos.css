@@ -6,16 +6,17 @@
 
 body {
     background-color: rgb(236, 216, 219);
-    margin: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(68, 93, 100);
 }
 
 header {
+    background-color: rgba(98, 125, 141, 0.7);
+    padding: 10px;
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     align-items: center;
 }
 
@@ -25,7 +26,7 @@ a {
 }
 
 a:hover {
-    color: rgb(163, 133, 145);
+    color: rgb(68, 93, 100);
 }
 
 #logo {
@@ -60,13 +61,13 @@ a:hover {
 
 #introducao {
     background-color: rgba(170, 212, 236, 0.7);
-    border-radius: 20px;
-    padding: 30px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -111,7 +112,7 @@ a:hover {
     border-radius: 20px;
     border-style: solid;
     border-color: rgb(163, 133, 145, 0.5);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -125,18 +126,20 @@ a:hover {
 }
 
 footer {
-    text-align: center;
-    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(98, 125, 141, 0.7);
+    color: white;
+    align-items: center;
     line-height: 1.5;
+    padding: 20px;
 }
 
-footer hr {
-    margin-bottom: 20px;
-    border-top: none;
-    border-width: 1px;
-    border-color: rgba(98, 125, 141, 0.7);
+#links-rodape {
+    display: flex;
+    gap: 20px
 }
 
-#identificacao {
-    margin-top: 10px;
+.link {
+    font-weight: bold;
 }

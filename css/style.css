@@ -6,16 +6,17 @@
 
 body {
     background-color: rgb(236, 216, 219);
-    margin: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(68, 93, 100);
 }
 
 header {
+    background-color: rgba(98, 125, 141, 0.7);
+    padding: 10px;
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     align-items: center;
 }
 
@@ -25,7 +26,7 @@ a {
 }
 
 a:hover {
-    color: rgb(163, 133, 145);
+    color: rgb(68, 93, 100);
 }
 
 #logo {
@@ -46,10 +47,6 @@ a:hover {
     font-weight: bold;
 }
 
-#ir-para-destaques {
-    font-weight: bold;
-}
-
 .letras_pequenas {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -60,13 +57,12 @@ a:hover {
 
 #introducao {
     background-color: rgba(170, 212, 236, 0.7);
-    border-radius: 20px;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -78,6 +74,20 @@ a:hover {
 
 #introducao p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+#ir-para-destaques {
+    padding: 10px;
+    background-color: rgb(223, 192, 196, 0.5);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(163, 133, 145, 0.5);
+    font-weight: bold;
+}
+
+#ir-para-destaques a:hover {
+    color: rgb(163, 133, 145);
 }
 
 #introducao img {
@@ -85,12 +95,8 @@ a:hover {
     height: 450px;
 }
 
-#galeria {
+#destaques {
     padding: 20px;
-}
-
-#galeria h3 {
-    font-size: 40px;
 }
 
 #motivos {
@@ -127,9 +133,7 @@ a:hover {
 #ir-para-personagens {
     text-align: center;
     background-color: rgba(170, 212, 236, 0.7);
-    border-radius: 20px;
     padding:20px;
-    margin-bottom: 20px;
 }
 
 #ir-para-personagens h3 {
@@ -138,7 +142,6 @@ a:hover {
 
 #ir-para-personagens a {
     font-weight: bold;
-    color: rgb(255, 255, 255);
     background-color: rgb(223, 192, 196, 0.5);
     padding: 10px;
     border-radius: 20px;
@@ -150,21 +153,21 @@ a:hover {
     color: rgb(163, 133, 145);
 }
 
-
-
 footer {
-    text-align: center;
-    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(98, 125, 141, 0.7);
+    color: white;
+    align-items: center;
     line-height: 1.5;
+    padding: 20px;
 }
 
-footer hr {
-    margin-bottom: 20px;
-    border-top: none;
-    border-width: 1px;
-    border-color: rgba(98, 125, 141, 0.7);
+#links-rodape {
+    display: flex;
+    gap: 20px
 }
 
-#identificacao {
-    margin-top: 10px;
+.link {
+    font-weight: bold;
 }
