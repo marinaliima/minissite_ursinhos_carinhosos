@@ -47,6 +47,13 @@ a:hover {
     font-weight: bold;
 }
 
+#opcao-ursinhos a{
+    color: rgb(68, 93, 100);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
 #ir-para-destaques {
     font-weight: bold;
 }
