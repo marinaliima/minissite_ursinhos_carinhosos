@@ -111,13 +111,18 @@ a:hover {
     display: flex;
     gap: 20px;
     justify-content: center;
+    align-items: flex-start;
     background-color: rgb(223, 192, 196, 0.5);
     border-radius: 20px;
     border-style: solid;
     border-color: rgb(163, 133, 145, 0.5);
-    padding: 20px;
+    padding: 5px 20px ;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.curiosidade article {
+    padding: 15px 0;
 }
 
 .curiosidade p {
@@ -127,7 +132,6 @@ a:hover {
 
 .numero {
     font-size: 50px;
-    margin-top: -15px;
 }
 
 footer {
